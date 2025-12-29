@@ -1,0 +1,25 @@
+{
+  "name": "ponix-claude",
+  "owner": {
+    "name": "ponix-dev"
+  },
+  "metadata": {
+    "description": "Claude CLI commands for structured software development workflows",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ponix-workflows",
+      "source": "./",
+      "description": "Structured development workflow commands: issue creation, planning, implementation, and codebase research",
+      "version": "1.0.0",
+      "author": {
+        "name": "ponix-dev"
+      },
+      "repository": "https://github.com/ponix-dev/ponix-claude",
+      "license": "MIT",
+      "keywords": ["workflow", "planning", "issues", "research", "implementation"],
+      "strict": false
+    }
+  ]
+}

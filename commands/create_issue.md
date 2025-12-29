@@ -1,5 +1,5 @@
 ---
-description: Document codebase as-is with thoughts directory for historical context
+description: Create detailed GitHub issues for features, bug fixes, and refactoring tasks
 ---
 
 # Create Issue
