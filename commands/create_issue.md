@@ -36,7 +36,7 @@ If a past github issue is identified as related, you can use the following tool 
 <arguments>
 {
   "owner": "ponix-dev",
-  "repo": "ponix",
+  "repo": <repo-name>,
   "issue_number": 3
 }
 </arguments>
@@ -72,7 +72,7 @@ Once you have confirmed with the user that issue is ready to be created, you sho
 <arguments>
 {
   "owner": "ponix-dev",
-  "repo": "ponix",
+  "repo": <repo-name>,
   "title": "{{TITLE}}",
   "body": "{{BODY}}",
   "labels": [{{LABELS}}]
@@ -90,27 +90,7 @@ Note that the owner and repo variables should be replaced with the proper owner 
 
 You most likely will only use one of these labels depending upon the goal of what the user wants to accomplish with the issue
 
-### Step 4: Validate that the issue is created
-
-Once you've created the issue, you can validate it exists using the following tool
-
-<mcp>
-<use_mcp_tool>
-<server_name>github</server_name>
-<tool_name>get_issue</tool_name>
-<arguments>
-{
-  "owner": "ponix-dev",
-  "repo": "ponix",
-  "issue_number": 3
-}
-</arguments>
-</use_mcp_tool>
-</mcp>
-
-Note that the owner, issue_number and repo variables should be replaced with relevant values.  If you are unsure what those values should be, please clarify with the user before callign the tool.
-
-### Step 5: Add issue to project
+### Step 4: Add issue to project
 
 After we've confirmed the issue was created, we will need to add it to our project. We can assume that the fields are accurate except for the item id.  That will need to be the item_id of the issue.
 
@@ -130,7 +110,7 @@ After we've confirmed the issue was created, we will need to add it to our proje
 </use_mcp_tool>
 </mcp>
 
-### Step 6: Prompt user for next 
+### Step 5: Prompt user for next 
 
 Once you have verified the issue is created, you can prompt the user to start implementing the issue.  Please use the following output:
 

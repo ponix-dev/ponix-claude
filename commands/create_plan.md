@@ -12,7 +12,7 @@ You are tasked with creating detailed implementation plans through an interactiv
 When this command is invoked:
 
 1. **Check if parameters were provided**:
-   - If an owner, repo, and issue number are passed in like ponix-dev ponix 5, then use the following tool to get the issue
+   - If an owner, repo, and issue number are passed in like ponix-dev ponix-rs 5, then use the following tool to get the issue. Have <repo-name> be the name of the repository that claude is running in.
 
    <mcp>
    <use_mcp_tool>
@@ -21,7 +21,7 @@ When this command is invoked:
    <arguments>
    {
    "owner": "ponix-dev",
-   "repo": "ponix",
+   "repo": <repo-name>,
    "issue_number": 3
    }
    </arguments>
@@ -59,7 +59,7 @@ When this command is invoked:
    "project_number": 1,
    "item_id": ITEM_ID_FROM_LIST_RESULTS,
    "updated_field": {
-   "id": "232928860",
+   "id": 232928860,
    "value": "47fc9ee4"
    }
    }
