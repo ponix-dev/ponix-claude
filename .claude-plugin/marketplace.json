@@ -4,21 +4,21 @@
     "name": "ponix-dev"
   },
   "metadata": {
-    "description": "Claude CLI commands for structured software development workflows",
+    "description": "Roadmap-driven development workflow for Claude Code",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "ponix-workflows",
       "source": "./",
-      "description": "Structured development workflow commands: issue creation, planning, implementation, and codebase research",
+      "description": "Roadmap-driven development workflow: issue creation, roadmap planning, task pickup, PR creation, and session handoff",
       "version": "1.0.0",
       "author": {
         "name": "ponix-dev"
       },
       "repository": "https://github.com/ponix-dev/ponix-claude",
       "license": "MIT",
-      "keywords": ["workflow", "planning", "issues", "research", "implementation"],
+      "keywords": ["workflow", "roadmap", "issues", "handoff", "pull-requests"],
       "strict": false
     }
   ]

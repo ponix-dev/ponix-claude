@@ -1,6 +1,6 @@
 # ponix-claude
 
-Claude Code plugin with structured development workflow commands.
+Claude Code plugin for roadmap-driven development workflows — from issue creation through implementation to PR submission.
 
 ## Installation
 
@@ -15,10 +15,11 @@ Once installed, the following commands are available:
 
 | Command | Description |
 |---------|-------------|
-| `/ponix-workflows:create_issue` | Create detailed GitHub issues for features, bug fixes, and refactoring tasks |
-| `/ponix-workflows:create_plan` | Create detailed implementation plans through interactive research and iteration |
-| `/ponix-workflows:implement_plan` | Implement technical plans from .thoughts/plans with verification |
-| `/ponix-workflows:research_codebase` | Document codebase as-is with historical context |
+| `/ponix-workflows:create-issue` | Create detailed GitHub issues with consistent structure, labels, and roadmap integration |
+| `/ponix-workflows:create-roadmap` | Build a dependency-ordered project roadmap through guided research, interviews, and planning |
+| `/ponix-workflows:roadmap-start` | Pick up the next roadmap task, create a branch, and plan the implementation |
+| `/ponix-workflows:roadmap-complete` | Run pre-flight checks, update the roadmap, create a PR, and record the session |
+| `/ponix-workflows:handoff` | Manage session handoff context — check status, log blockers, record decisions |
 
 ## Updating
 
