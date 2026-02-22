@@ -24,6 +24,6 @@ Once installed, the following commands are available:
 ## Updating
 
 ```bash
-/plugin marketplace update
-/plugin update ponix-workflows@ponix-claude
+claude plugin marketplace add ponix-dev/ponix-claude
+claude plugin install ponix-workflows
 ```
