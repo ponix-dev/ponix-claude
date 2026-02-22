@@ -5,8 +5,8 @@ Claude Code plugin for roadmap-driven development workflows — from issue creat
 ## Installation
 
 ```bash
-/plugin marketplace add ponix-dev/ponix-claude
-/plugin install ponix-workflows@ponix-claude
+claude plugin marketplace add ponix-dev/ponix-claude
+claude plugin install ponix-workflows
 ```
 
 ## Commands
@@ -20,10 +20,3 @@ Once installed, the following commands are available:
 | `/ponix-workflows:roadmap-start` | Pick up the next roadmap task, create a branch, and plan the implementation |
 | `/ponix-workflows:roadmap-complete` | Run pre-flight checks, update the roadmap, create a PR, and record the session |
 | `/ponix-workflows:handoff` | Manage session handoff context — check status, log blockers, record decisions |
-
-## Updating
-
-```bash
-claude plugin marketplace add ponix-dev/ponix-claude
-claude plugin install ponix-workflows
-```
